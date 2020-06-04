@@ -20,39 +20,8 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-*/
-
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Generic
-	- Normalize
-	- Box sizing
-# Base
-	- Typography
-	- Elements
-	- Links
-	- Forms
-## Layouts
-# Components
-	- Navigation
-	- Posts and pages
-	- Comments
-	- Widgets
-	- Media
-	- Captions
-	- Galleries
-# plugins
-	- Jetpack infinite scroll
-# Utilities
-	- Accessibility
-	- Alignments
-
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-# Generic
---------------------------------------------------------------*/
+*/  
+  
 
 /* Normalize
 --------------------------------------------- */
@@ -703,17 +672,6 @@ textarea {
 	display: block;
 }
 
-@media screen and (min-width: 37.5em) {
-
-	.menu-toggle {
-		display: none;
-	}
-
-	.main-navigation ul {
-		display: flex;
-	}
-}
-
 .site-main .comment-navigation,
 .site-main
 .posts-navigation,
@@ -740,7 +698,11 @@ textarea {
 	text-align: end;
 	flex: 1 0 50%;
 }
+/* HEADER
+--------------------------------------------- */
 
+/* CONTENT
+--------------------------------------------- */
 /* Posts and pages
 --------------------------------------------- */
 .sticky {
@@ -777,7 +739,7 @@ textarea {
 	display: block;
 }
 
-/* Widgets
+/* SIDEBAR
 --------------------------------------------- */
 .widget {
 	margin: 0 0 1.5em;
@@ -786,6 +748,9 @@ textarea {
 .widget select {
 	max-width: 100%;
 }
+
+/* FOOTER
+--------------------------------------------- */
 
 /* Media
 --------------------------------------------- */
@@ -966,4 +931,17 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1.5em;
+}
+
+/* MEDIA QUERIES
+------------------------ */
+@media screen and (min-width: 768px) {
+
+	.menu-toggle {
+		display: none;
+	}
+
+	.main-navigation ul {
+		display: flex;
+	}
 }
