@@ -363,6 +363,22 @@ html {
 # Base
 --------------------------------------------------------------*/
 
+/* Page Structure
+--------------------------------------------- */
+.wrap {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.inner {
+	padding: 20px;
+}
+
+.header-section,
+.footer-section {
+	background: bisque;
+}
+
 /* Typography
 --------------------------------------------- */
 body,
